@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 15px;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.navbar h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar h2{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #fff;
+    height: 90vh;
+   
+}
+
+.container{
+    padding: 250px;
+}
+
+.container a{
+    background-color: blue;
+    padding-top: 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+
+}
+
+.container button{
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.container button:hover{
+    color: #000;
+    background-color: aqua;
+}
+
